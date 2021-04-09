@@ -1,0 +1,75 @@
+/************************** Common Rules **************************/
+
+/* FONTS */
+/* font-family: 'PT Sans Narrow', sans-serif; */
+
+/************************** Utility  **************************/
+.bg_white{
+    background-color: white;
+}
+.bg_lightgrey{
+    background-color: #F3F5F9;
+}
+.bg_blue{
+    background-color: #0044C2;
+}
+.bg_darkblue{
+    background-color: #031C4E;
+}
+
+.d_flex{
+    display: flex;
+}
+
+.btn_small{
+    border: 1px solid #2486FD;
+    border-radius: 5px;
+    color: #2486FD;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+}
+
+/************************** Header **************************/
+nav{
+    height: 50px;
+    line-height: 50px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    padding-right: 1rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold; 
+    vertical-align: middle; 
+    color: #213764;
+}
+nav i{
+    vertical-align: middle;
+}
+
+nav .row .col-lg-3>img{
+    height: 30px;
+    vertical-align: middle;
+}
+nav .row .col-lg-3>span{
+    font-size: 20px;
+    color: #2486FD;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    vertical-align: middle;
+}
+nav .row .col-lg-4{
+    padding-right: 1rem;
+}
+
+/************************** Main **************************/
+
+/************************** Footer **************************/
+
+
+
