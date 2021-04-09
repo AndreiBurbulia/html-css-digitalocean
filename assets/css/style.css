@@ -219,6 +219,29 @@ main{
     color: #2486FD;
 }
 
+/* Features*/
+.features .col-lg-4{
+    padding-right: 2rem;
+}
+.features h2{
+    padding: 2rem 0;
+}
+.features h4{
+    padding: 1rem 0;
+}
+.features p{
+    margin-bottom: 1rem;
+    color: #717D99;
+}
+.features a{
+    text-decoration: none;
+    color: #2486FD;
+}
+.features a>i{
+    margin-left: 0.5rem;
+}
+
+
 
 /************************** Footer **************************/
 
@@ -306,6 +329,22 @@ main{
         padding-top: 3rem;
     }
 
+    /* Features */
+    .features .col-xs-12{
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+    }
+    .features .col-xs-12 h2{
+        font-size: 2.5rem;
+    }
+    .features .col-xs-12 h4{
+        font-size: 1.5rem;
+    }
+    .features .col-xs-12 p{
+        font-size: 1.2rem;
+    }
+
+
 }
 
 /************************** Media Query Tablet **************************/
@@ -327,6 +366,10 @@ main{
         padding-left:  1rem;
     }
     
+    /* Features */
+    .features .col-md-4{
+        padding-left: 1rem;
+    }
 
    
 }
