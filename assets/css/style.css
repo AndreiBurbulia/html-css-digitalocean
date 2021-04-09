@@ -1,7 +1,7 @@
 /************************** Common Rules **************************/
 
 /* FONTS */
-/* font-family: 'PT Sans Narrow', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
 
 /************************** Utility  **************************/
 .bg_white{
@@ -43,7 +43,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     padding-right: 1rem;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold; 
     vertical-align: middle; 
     color: #213764;
@@ -59,7 +59,7 @@ nav .row .col-lg-3>img{
 nav .row .col-lg-3>span{
     font-size: 20px;
     color: #2486FD;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     vertical-align: middle;
 }
@@ -68,6 +68,37 @@ nav .row .col-lg-4{
 }
 
 /************************** Main **************************/
+main{
+    font-family: 'Roboto', sans-serif;
+}
+/* Section Title and Form */
+.jumbobox{
+    background-image: url(../img/bg-banner-home.jpg);
+    background-size: contain;
+    background-size: 102% 100%;
+    height: 430px;
+}
+.jumbobox .col-lg-7{
+    color: white;
+}
+.jumbobox .col-lg-7 h1{
+    font-size: 4.1rem;
+    line-height: 4.1rem;
+}
+.jumbobox .col-lg-7 p{
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+}
+.jumbobox .col-lg-5{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.jumbobox .col-lg-5 input,
+.jumbobox .col-lg-5 button{
+    width: 100%;
+}
 
 /************************** Footer **************************/
 
