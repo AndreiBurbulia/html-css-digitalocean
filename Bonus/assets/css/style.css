@@ -1,0 +1,591 @@
+
+
+/************************** Utility  **************************/
+
+.bg_lightgrey{
+    background-color: #F3F5F9;
+}
+.bg_darkblue{
+    background-color: #031C4E;
+}
+
+.d_flex{
+    display: flex;
+}
+
+.btn_small{
+    border: 1px solid #2486FD;
+    border-radius: 5px;
+    color: #2486FD;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+}
+
+
+/************************** Header **************************/
+nav{
+    height: 50px;
+    line-height: 50px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding-right: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold; 
+    vertical-align: middle; 
+    color: #213764;
+}
+
+nav i{
+    vertical-align: middle;
+}
+
+nav .row .col-lg-3>img{
+    height: 30px;
+    vertical-align: middle;
+}
+
+nav .row .col-lg-3>span{
+    font-size: 20px;
+    color: #2486FD;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+nav .row .col-lg-4{
+    padding-right: 1rem;
+}
+
+nav .col-md-2,
+nav .col-xs-2{
+    display: none;
+    color: #2486FD;
+}
+
+/************************** Main **************************/
+
+main{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Section Title and Form */
+
+.jumbobox{
+    background-image: url(../img/bg-banner-home.jpg);
+    background-size: contain;
+    background-size: 102% 100%;
+}
+
+.jumbobox .col-lg-7{
+    color: white;
+}
+
+.jumbobox .col-lg-7 h1{
+    font-size: 4.1rem;
+    line-height: 4.1rem;
+}
+
+.jumbobox .col-lg-7 p{
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+}
+
+.jumbobox .col-lg-5{
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.jumbobox .col-lg-5 h2:nth-of-type(2){
+    color: #2486FD;
+    padding-bottom: 1rem;
+}
+
+.jumbobox .col-lg-5 input,
+.jumbobox .col-lg-5 button{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 0.5rem;
+    border: 1px solid rgba(59, 59, 59, 0.1);
+}
+
+.jumbobox .col-lg-5 input{
+    padding-left: 0.5rem;
+}
+
+.jumbobox .col-lg-5 button{
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.jumbobox .col-lg-5 button:nth-of-type(1){
+    background-color: #2486FD;
+    color: white;
+}
+
+.jumbobox .col-lg-5 button:nth-of-type(2){
+    background-color: white;
+    background-image: url(../img/google-icon.png);
+    background-size: 6%;
+    background-position: 2%;
+    background-repeat: no-repeat;
+}
+
+.jumbobox .col-lg-5 p{
+    font-size: 13px;
+}
+
+.jumbobox .col-lg-5 p>a{
+    color: #2486FD;
+}
+
+
+/* Section partners Logo*/
+
+.partners_logo{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.partners h4{
+    text-transform: uppercase;
+    color: #717D99;
+}
+
+.partners a{
+    color: #2486FD;
+    text-decoration: none;
+}
+
+.partners a>i{
+    padding-left: 0.5rem;
+}
+
+/* Section Deploy and scale*/
+
+.deploy_1 h2{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.deploy_1 p{
+    font-size: 1.4rem;
+    color: #717D99;
+}
+
+.deploy_2 a{
+    text-decoration: none;
+    display: block;
+    padding: 1rem 0 1rem 0.5rem;
+    color: #717D99;
+    border-left: 1px solid #717D99;
+}
+
+.deploy_2 .col-lg-8 h4{
+    padding: 1rem 0;
+}
+
+.deploy_2 .col-lg-8 p{
+    color: #717D99;
+}
+
+.deploy_2 .col-lg-8 .col-lg-6{
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Designed for developers*/
+
+.developer img{
+    height: 300px;
+}
+
+.developer .row>.col-lg-12:nth-of-type(1) p{
+    color: #717D99;
+    padding: 1rem 0 2rem 0;
+}
+
+.developer .row>.col-lg-12:nth-of-type(2){
+    align-items: center;
+    justify-content: center;
+}
+
+.developer .row>.col-lg-12:nth-of-type(2) i{
+    margin: 0 1rem;
+    font-size: 30px;
+}
+
+.developer .row>.col-lg-12:nth-of-type(3) i{
+    margin: 0.5rem 0;
+    font-size: 10px;
+    color: #2486FD;
+}
+
+.developer .row>.col-lg-12:nth-of-type(3) p{
+    padding: 1rem 0 0.5rem 0;
+    font-weight: 600;
+}
+
+.developer .row>.col-lg-12:nth-of-type(3) i:nth-of-type(1){
+    color: #2486FD;
+}
+
+/* Features*/
+
+.features .col-lg-4{
+    padding-right: 2rem;
+}
+
+.features h2{
+    padding: 2rem 0;
+}
+
+.features h4{
+    padding: 1rem 0;
+}
+
+.features p{
+    margin-bottom: 1rem;
+    color: #717D99;
+}
+.features a{
+    text-decoration: none;
+    color: #2486FD;
+}
+
+.features a>i{
+    margin-left: 0.5rem;
+}
+
+/* Service Customers */
+
+.customers{
+    background: linear-gradient(180deg, #0047C5 0%, #00209B 100%);
+}
+
+.customers h1{
+    color: white;
+    font-size: 2.3rem;
+}
+
+.customers .col-lg-6{
+    padding: 1rem;
+}
+
+.customers .col-12{
+    padding: 0.7rem 0;
+    border-bottom: 0.5px solid white;
+}
+
+.customers .col-lg-6>.col-12 .col-2{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.customers .col-lg-6>.col-12 .col-7{
+    color: white;
+}
+
+.customers .col-lg-6>.col-12 .col-3{
+    text-align: right;
+}
+
+.customers .col-lg-6>.col-12 .col-3 a{
+    text-decoration: none;
+    color: #00D1D1;
+}
+
+.customers .col-lg-6>.col-12 .col-3 a i{
+    padding-left: 5px;
+}
+
+.customers .col-lg-6 .col-12:last-child{
+    border-bottom: none;
+}
+
+/* Development teams */
+
+.teams .row{
+    align-items: center;
+    justify-content: center;
+}
+
+.teams h1{
+    font-size: 2rem;
+    padding-bottom: 4rem ;
+}
+
+.story {
+    background-color: white;
+    width: 60%;
+    padding: 5rem 0;
+    margin: 0 1rem;
+}
+
+.story img{
+    height: 70px;
+}
+
+.story p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.story p::first-letter{
+    margin-left: 28px;
+}
+
+.story span{
+    display: block;
+}
+
+.story span:nth-of-type(2){
+    margin-bottom: 1rem;
+}
+
+.teams .row  i {
+    font-size: 30px;
+}
+
+.teams .row .story>a {
+    text-decoration: none;
+    color: #2486FD;
+}
+
+.teams .row .story a i {
+    font-size: 15px;
+}
+
+.teams .container>i{
+    font-size: 10px;
+    color: #2486FD;
+    margin-top: 3rem;
+}
+
+/* Get started  */
+
+.started{
+    background: linear-gradient(180deg, #0047C5 0%, #00209B 100%);
+}
+
+.started h2{
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.started a{
+    text-decoration: none;
+    background-color: white;
+    color: #2486FD;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/************************** Footer **************************/
+
+
+footer span{
+    display: block;
+}
+
+footer .col-lg-4 span:nth-of-type(1){
+    color: #808AA2;
+}
+
+footer .col-lg-4 span:nth-of-type(2){
+    color: #5A6887;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer .col-lg-4 ul li{
+    display: inline-block;
+    margin-top: 1rem;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+footer .col-lg-4 ul li i{
+    color: #7A859D;
+}
+
+footer .col-lg-2 h4{
+    color: white;
+}
+
+footer .col-lg-2 ul li{
+    margin: 0.7rem 0;
+}
+
+footer .col-lg-2 ul li a{
+    text-decoration: none;
+    color: #959EB1;
+}
+
+
+
+
+
+
+
+
+/************************** Media Query **************************/
+
+/************************** Media Query Smartphone **************************/
+@media screen and (max-width: 767px){
+    /**************** NavBar ****************/
+    
+    nav .col-lg-5,
+    nav .col-lg-4
+    {
+        display: none;
+    }
+
+    nav .col-xs-2{
+        display: inline-block;
+    }
+
+    /**************** Main ****************/
+
+    .jumbobox .col-xs-12:first-child p{
+        padding: 1rem 0;
+    }
+
+    .jumbobox .container{
+        padding: 0 1rem;
+    }
+
+    .jumbobox{
+        background-size: contain;
+    }
+
+     /* Partners Logo */
+
+    .partners h4{
+        font-size: 1.4rem;
+    }
+
+    .partners a{
+        font-size: 1.2rem;
+    }
+
+    .partners_logo img{
+        width: 40%;
+    }
+
+    /* Deploy and Scale */
+
+    .deploy_2 .col-xs-12{
+        margin-left: 5px;
+        margin-bottom: -10px;
+        margin-top: 10px;
+    }
+
+    .deploy_2 .col-xs-12>a{
+        margin-left: 7px;
+    }
+
+    .deploy_2 .col-xs-12>a:last-child{
+        margin-bottom: 17px;
+    }
+
+    /* Designed for developers */
+
+    .developer .row>.col-xs-12:nth-of-type(2) i{
+        opacity: 0;
+    }
+
+    .developer .row>.col-xs-12:nth-of-type(2) img{
+        padding-top: 5rem;
+    }
+
+    .developer .row>.col-xs-12:nth-of-type(3) i{
+        padding-top: 3rem;
+    }
+
+    /* Features */
+    .features .col-xs-12{
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+    }
+
+    .features .col-xs-12 h2{
+        font-size: 2.5rem;
+    }
+
+    .features .col-xs-12 h4{
+        font-size: 1.5rem;
+    }
+
+    .features .col-xs-12 p{
+        font-size: 1.2rem;
+    }
+
+    /* Development teams */
+
+    .story img{
+        height: 40px;
+    }
+
+    .teams .row>i{
+        display: none;
+    }
+
+    /* Footer */
+    footer .col-md-6{
+        margin-top: 1rem;
+    } 
+
+
+}
+
+/************************** Media Query Tablet **************************/
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+    /**************** NavBar ****************/
+    nav .col-lg-5,
+    nav .col-lg-4{
+        display: none;
+    }
+    
+    nav .col-md-2{
+        display: inline-block;
+    }
+
+    /**************** Main ****************/
+
+    /* Title and form */
+    .jumbotron>.container>.row>.col-lg-7, .col-md-8{
+        padding-left:  1rem;
+    }
+    
+    /* Features */
+    .features .col-md-4{
+        padding-left: 1rem;
+    }
+
+    /* Footer */
+    footer .col-md-6{
+        margin-top: 1rem;
+    } 
+
+   
+}

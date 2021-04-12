@@ -1,0 +1,347 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+/* Al interno del container vado a inserire le mie righe */
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* La row la utilizzo come contenitore in cui vado ad aggiungere le mie varie righe */
+.row{
+    width: 100%;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Con questa selezione vado a selezionare tutte le classi che iniziano con "col-" */
+[class*="col-"] {
+    float: left;
+}
+
+.dbg [class*="col-"] {
+    background-color: rosybrown;
+    border: 1px solid black;
+    height: 100px;
+}
+
+
+/************************* WIDTH *************************/
+.col-1{
+    width: calc((100% / 12) * 1 ) ;
+}
+.col-2{
+    width: calc((100% / 12) * 2 ) ;
+}
+.col-3{
+    width: calc((100% / 12) * 3 ) ;
+}
+.col-4{
+    width: calc((100% / 12) * 4 ) ;
+}
+.col-5{
+    width: calc((100% / 12) * 5 ) ;
+}
+.col-6{
+    width: calc(50%) ;
+}
+.col-7{
+    width: calc((100% / 12) * 7 ) ;
+}
+.col-8{
+    width: calc((100% / 12) * 8 ) ;
+}
+.col-9{
+    width: calc((100% / 12) * 9 ) ;
+}
+.col-10{
+    width: calc((100% / 12) * 10 ) ;
+}
+.col-11{
+    width: calc((100% / 12) * 11 ) ;
+}
+.col-12{
+    width: calc(100%) ;
+}
+
+/************************* OFFSET *************************/
+
+.col-offset-1{
+    margin-left: calc((100% / 12) * 1 ) ;
+}
+.col-offset-2{
+    margin-left: calc((100% / 12) * 2 ) ;
+}
+.col-offset-3{
+    margin-left: calc((100% / 12) * 3 ) ;
+}
+.col-offset-4{
+    margin-left: calc((100% / 12) * 4 ) ;
+}
+.col-offset-5{
+    margin-left: calc((100% / 12) * 5 ) ;
+}
+.col-offset-6{
+    margin-left: calc(50%) ;
+}
+.col-offset-7{
+    margin-left: calc((100% / 12) * 7 ) ;
+}
+.col-offset-8{
+    margin-left: calc((100% / 12) * 8 ) ;
+}
+.col-offset-9{
+    margin-left: calc((100% / 12) * 9 ) ;
+}
+.col-offset-10{
+    margin-left: calc((100% / 12) * 10 ) ;
+}
+.col-offset-11{
+    margin-left: calc((100% / 12) * 11 ) ;
+}
+
+
+/************************* RESPONSIVE *************************/
+
+
+/* Con questa soluzione vado a fare in modo che quando vado ad utilizzare le varie classi in base al dispositivo il contenuto si addatta in base alla grandezza del dispositivo su cui vado ad utilizzare il tutto */
+
+@media screen and (max-width: 767px) {
+
+    /************************* WIDTH  XS *************************/
+    .col-xs-1{
+        width: calc((100% / 12) * 1 ) ;
+    }
+    .col-xs-2{
+        width: calc((100% / 12) * 2 ) ;
+    }
+    .col-xs-3{
+        width: calc((100% / 12) * 3 ) ;
+    }
+    .col-xs-4{
+        width: calc((100% / 12) * 4 ) ;
+    }
+    .col-xs-5{
+        width: calc((100% / 12) * 5 ) ;
+    }
+    .col-xs-6{
+        width: calc(50%) ;
+    }
+    .col-xs-7{
+        width: calc((100% / 12) * 7 ) ;
+    }
+    .col-xs-8{
+        width: calc((100% / 12) * 8 ) ;
+    }
+    .col-xs-9{
+        width: calc((100% / 12) * 9 ) ;
+    }
+    .col-xs-10{
+        width: calc((100% / 12) * 10 ) ;
+    }
+    .col-xs-11{
+        width: calc((100% / 12) * 11 ) ;
+    }
+    .col-xs-12{
+        width: calc(100%) ;
+    }
+
+    /************************* OFFSET XS *************************/
+
+    .col-xs-offset-1{
+        margin-left: calc((100% / 12) * 1 ) ;
+    }
+    .col-xs-offset-2{
+        margin-left: calc((100% / 12) * 2 ) ;
+    }
+    .col-xs-offset-3{
+        margin-left: calc((100% / 12) * 3 ) ;
+    }
+    .col-xs-offset-4{
+        margin-left: calc((100% / 12) * 4 ) ;
+    }
+    .col-xs-offset-5{
+        margin-left: calc((100% / 12) * 5 ) ;
+    }
+    .col-xs-offset-6{
+        margin-left: calc(50%) ;
+    }
+    .col-xs-offset-7{
+        margin-left: calc((100% / 12) * 7 ) ;
+    }
+    .col-xs-offset-8{
+        margin-left: calc((100% / 12) * 8 ) ;
+    }
+    .col-xs-offset-9{
+        margin-left: calc((100% / 12) * 9 ) ;
+    }
+    .col-xs-offset-10{
+        margin-left: calc((100% / 12) * 10 ) ;
+    }
+    .col-xs-offset-11{
+        margin-left: calc((100% / 12) * 11 ) ;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /************************* WIDTH MD *************************/
+    .col-md-1{
+        width: calc((100% / 12) * 1 ) ;
+    }
+    .col-md-2{
+        width: calc((100% / 12) * 2 ) ;
+    }
+    .col-md-3{
+        width: calc((100% / 12) * 3 ) ;
+    }
+    .col-md-4{
+        width: calc((100% / 12) * 4 ) ;
+    }
+    .col-md-5{
+        width: calc((100% / 12) * 5 ) ;
+    }
+    .col-md-6{
+        width: calc(50%) ;
+    }
+    .col-md-7{
+        width: calc((100% / 12) * 7 ) ;
+    }
+    .col-md-8{
+        width: calc((100% / 12) * 8 ) ;
+    }
+    .col-md-9{
+        width: calc((100% / 12) * 9 ) ;
+    }
+    .col-md-10{
+        width: calc((100% / 12) * 10 ) ;
+    }
+    .col-md-11{
+        width: calc((100% / 12) * 11 ) ;
+    }
+    .col-md-12{
+        width: calc(100%) ;
+    }
+
+    /************************* OFFSET MD *************************/
+
+    .col-md-offset-1{
+        margin-left: calc((100% / 12) * 1 ) ;
+    }
+    .col-md-offset-2{
+        margin-left: calc((100% / 12) * 2 ) ;
+    }
+    .col-md-offset-3{
+        margin-left: calc((100% / 12) * 3 ) ;
+    }
+    .col-md-offset-4{
+        margin-left: calc((100% / 12) * 4 ) ;
+    }
+    .col-md-offset-5{
+        margin-left: calc((100% / 12) * 5 ) ;
+    }
+    .col-md-offset-6{
+        margin-left: calc(50%) ;
+    }
+    .col-md-offset-7{
+        margin-left: calc((100% / 12) * 7 ) ;
+    }
+    .col-md-offset-8{
+        margin-left: calc((100% / 12) * 8 ) ;
+    }
+    .col-md-offset-9{
+        margin-left: calc((100% / 12) * 9 ) ;
+    }
+    .col-md-offset-10{
+        margin-left: calc((100% / 12) * 10 ) ;
+    }
+    .col-md-offset-11{
+        margin-left: calc((100% / 12) * 11 ) ;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    /************************* WIDTH LG *************************/
+    .col-lg-1{
+        width: calc((100% / 12) * 1 ) ;
+    }
+    .col-lg-2{
+        width: calc((100% / 12) * 2 ) ;
+    }
+    .col-lg-3{
+        width: calc((100% / 12) * 3 ) ;
+    }
+    .col-lg-4{
+        width: calc((100% / 12) * 4 ) ;
+    }
+    .col-lg-5{
+        width: calc((100% / 12) * 5 ) ;
+    }
+    .col-lg-6{
+        width: calc(50%) ;
+    }
+    .col-lg-7{
+        width: calc((100% / 12) * 7 ) ;
+    }
+    .col-lg-8{
+        width: calc((100% / 12) * 8 ) ;
+    }
+    .col-lg-9{
+        width: calc((100% / 12) * 9 ) ;
+    }
+    .col-lg-10{
+        width: calc((100% / 12) * 10 ) ;
+    }
+    .col-lg-11{
+        width: calc((100% / 12) * 11 ) ;
+    }
+    .col-lg-12{
+        width: calc(100%) ;
+    }
+
+    /************************* OFFSET LG *************************/
+
+    .col-lg-offset-1{
+        margin-left: calc((100% / 12) * 1 ) ;
+    }
+    .col-lg-offset-2{
+        margin-left: calc((100% / 12) * 2 ) ;
+    }
+    .col-lg-offset-3{
+        margin-left: calc((100% / 12) * 3 ) ;
+    }
+    .col-lg-offset-4{
+        margin-left: calc((100% / 12) * 4 ) ;
+    }
+    .col-lg-offset-5{
+        margin-left: calc((100% / 12) * 5 ) ;
+    }
+    .col-lg-offset-6{
+        margin-left: calc(50%) ;
+    }
+    .col-lg-offset-7{
+        margin-left: calc((100% / 12) * 7 ) ;
+    }
+    .col-lg-offset-8{
+        margin-left: calc((100% / 12) * 8 ) ;
+    }
+    .col-lg-offset-9{
+        margin-left: calc((100% / 12) * 9 ) ;
+    }
+    .col-lg-offset-10{
+        margin-left: calc((100% / 12) * 10 ) ;
+    }
+    .col-lg-offset-11{
+        margin-left: calc((100% / 12) * 11 ) ;
+    }
+}
