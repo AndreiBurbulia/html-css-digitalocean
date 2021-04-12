@@ -333,7 +333,23 @@ main{
 }
 
 /* Get started  */
+.started{
+    background: linear-gradient(180deg, #0047C5 0%, #00209B 100%);
+}
 
+.started h2{
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.started a{
+    text-decoration: none;
+    background-color: white;
+    color: #2486FD;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
 
 
 /************************** Footer **************************/
