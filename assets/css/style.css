@@ -243,7 +243,6 @@ main{
 
 /* Service Customers */
 .customers{
-    /* background-color: #0044C2; */
     background: linear-gradient(180deg, #0047C5 0%, #00209B 100%);
 }
 .customers h1{
@@ -282,10 +281,62 @@ main{
 }
 
 
+/* Development teams */
+.teams .row{
+    align-items: center;
+    justify-content: center;
+}
+.teams h1{
+    font-size: 2rem;
+    padding-bottom: 4rem ;
+}
+.story {
+    background-color: white;
+    width: 60%;
+    padding: 5rem 0;
+    margin: 0 1rem;
+}
+.story img{
+    height: 70px;
+}
+.story p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+.story p::first-letter{
+    margin-left: 28px;
+}
+.story span{
+    display: block;
+}
+.story span:nth-of-type(2){
+    margin-bottom: 1rem;
+}
+
+.teams .row  i {
+    font-size: 30px;
+}
+
+.teams .row .story>a {
+    text-decoration: none;
+    color: #2486FD;
+}
+.teams .row .story a i {
+    font-size: 15px;
+}
+
+.teams .container>i{
+    font-size: 10px;
+    color: #2486FD;
+    margin-top: 3rem;
+}
+
+/* Get started  */
+
+
 
 /************************** Footer **************************/
-
-
 
 
 
@@ -312,7 +363,8 @@ main{
     /**************** NavBar ****************/
     
     nav .col-lg-5,
-    nav .col-lg-4{
+    nav .col-lg-4
+    {
         display: none;
     }
     nav .col-xs-2{
@@ -331,9 +383,6 @@ main{
     }
 
      /* Partners Logo */
-     .partners_logo {
-        /* flex-wrap: wrap; */
-    }
     .partners h4{
         font-size: 1.4rem;
     }
@@ -384,6 +433,14 @@ main{
         font-size: 1.2rem;
     }
 
+    /* Development teams */
+    .story img{
+        height: 40px;
+    }
+    .teams .row>i{
+        display: none;
+    }
+
 
 }
 
@@ -413,4 +470,3 @@ main{
 
    
 }
-
