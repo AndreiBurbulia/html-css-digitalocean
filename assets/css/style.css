@@ -241,6 +241,46 @@ main{
     margin-left: 0.5rem;
 }
 
+/* Service Customers */
+.customers{
+    /* background-color: #0044C2; */
+    background: linear-gradient(180deg, #0047C5 0%, #00209B 100%);
+}
+.customers h1{
+    color: white;
+    font-size: 2.3rem;
+}
+.customers .col-lg-6{
+    padding: 1rem;
+}
+.customers .col-12{
+    padding: 0.7rem 0;
+    border-bottom: 0.5px solid white;
+}
+
+.customers .col-lg-6>.col-12 .col-2{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.customers .col-lg-6>.col-12 .col-7{
+    color: white;
+}
+.customers .col-lg-6>.col-12 .col-3{
+    text-align: right;
+}
+.customers .col-lg-6>.col-12 .col-3 a{
+    text-decoration: none;
+    color: #00D1D1;
+}
+.customers .col-lg-6>.col-12 .col-3 a i{
+    padding-left: 5px;
+}
+
+.customers .col-lg-6 .col-12:last-child{
+    border-bottom: none;
+}
+
 
 
 /************************** Footer **************************/
