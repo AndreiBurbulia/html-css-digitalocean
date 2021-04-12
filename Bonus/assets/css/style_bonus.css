@@ -1,18 +1,139 @@
-/* .chat_text{
-    position: absolute;
-    background-color: white;
-    border-radius: 5px;
-    width: 400px;
-    height: 70px;
-    right: 21px;
-    bottom: -3500px;
-    font-size: 1.3rem;
-    padding: 10px 5px;
-} */
+
 
 body{
     position: relative;
 }
+
+/***************** ARROW *****************/
+.arrow_black{
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-bottom: 15px solid black;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 15px solid transparent;
+}
+.arrow_white{
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-bottom: 15px solid white;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 15px solid transparent;
+}
+
+
+
+/***************** NAVBAR *****************/
+
+/* Support */
+.drop_down_product{
+    z-index: 2;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    top: 47px;
+    display: none;
+}
+.drop_down_product ul{
+    padding: 1rem;
+}
+.drop_down_product ul li{
+    display: block;
+    line-height: 30px;
+} 
+
+.position_product_black{
+    top: -30px;
+    left: 62px;
+}
+
+.position_product_white{
+    top: -29px;
+    left: 62px;
+}
+
+
+.product_hover:hover ~ .drop_down_product{
+    display: block;
+}
+
+/* Community */
+
+.community_hover:hover ~ .drop_down_community{
+    display: block;
+}
+
+
+.drop_down_community{
+    z-index: 2;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    top: 47px;
+    display: none;
+}
+
+.drop_down_community ul{
+    padding: 1rem;
+}
+.drop_down_community ul li{
+    display: block;
+    line-height: 30px;
+}
+
+.position_community_black{
+    top: -30px;
+    left: 81px;
+}
+
+.position_community_white{
+    top: -29px;
+    left: 81px;
+}
+
+
+/* support */
+
+.drop_down_support{
+    z-index: 2;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    top: 47px;
+    display: none;
+}
+.drop_down_support ul{
+    padding: 1rem;
+}
+.drop_down_support ul li{
+    display: block;
+    line-height: 30px;
+}
+
+.position_support_black{
+    top: -30px;
+    left: 57px;
+}
+
+.position_support_white{
+    top: -29px;
+    left: 57px;
+}
+
+
+.support_hover:hover ~ .drop_down_support{
+    display: block;
+}
+
+
+
+
+
+
+/****************  Chat Box ******************/
 .chat_container{
     position: fixed;
 }
@@ -72,4 +193,65 @@ body{
 
 .chat_img:hover ~ .chat_box{
     display: block;
+}
+
+
+
+
+/***************** Media Query for small device *****************/
+@media screen and (max-width: 991px){
+    .menu_small_device{
+        z-index: 2;
+        position: absolute;
+        right: 60px;
+        top: 6px;
+        background-color: white;
+        border: 1px solid black;
+        display: none;
+    }
+    .menu_small_device ul{
+        padding: 1rem;
+    }
+    .menu_small_device ul li{
+        display: block;
+    }
+    .menu_small_device ul li:nth-of-type(7) a{
+        padding: 5px 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .menu_small_device ul li:nth-of-type(8) a{
+        padding: 5px 10px;
+        border: 1px solid #2486FD;
+        color: #2486FD;
+        border-radius: 5px;
+    }
+
+    .arrow_black_small{
+        position: absolute;
+        top: 8px;
+        right: -30px;
+        height: 0;
+        width: 0;
+        border-bottom: 10px solid transparent;
+        border-right: 15px solid transparent;
+        border-left: 15px solid black;
+        border-top: 10px solid transparent;
+    }
+    .arrow_white_small{
+        position: absolute;
+        top: 8px;
+        right: -29px;
+        height: 0;
+        width: 0;
+        border-bottom: 10px solid transparent;
+        border-right: 15px solid transparent;
+        border-left: 15px solid white;
+        border-top: 10px solid transparent;
+    }
+
+    .menu_small_hover:hover ~ .menu_small_device{
+        display: block;
+    }
+    
 }
