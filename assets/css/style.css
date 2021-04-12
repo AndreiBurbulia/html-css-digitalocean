@@ -355,6 +355,41 @@ main{
 /************************** Footer **************************/
 
 
+footer span{
+    display: block;
+}
+footer .col-lg-4 span:nth-of-type(1){
+    color: #808AA2;
+}
+footer .col-lg-4 span:nth-of-type(2){
+    color: #5A6887;
+}
+
+footer ul {
+    list-style: none;
+}
+footer .col-lg-4 ul li{
+    display: inline-block;
+    margin-top: 1rem;
+    padding-right: 5px;
+    font-size: 20px;
+}
+footer .col-lg-4 ul li i{
+    color: #7A859D;
+}
+
+footer .col-lg-2 h4{
+    color: white;
+}
+footer .col-lg-2 ul li{
+    margin: 0.7rem 0;
+}
+footer .col-lg-2 ul li a{
+    text-decoration: none;
+    color: #959EB1;
+}
+
+
 
 
 
@@ -457,6 +492,11 @@ main{
         display: none;
     }
 
+    /* Footer */
+    footer .col-md-6{
+        margin-top: 1rem;
+    } 
+
 
 }
 
@@ -483,6 +523,11 @@ main{
     .features .col-md-4{
         padding-left: 1rem;
     }
+
+    /* Footer */
+    footer .col-md-6{
+        margin-top: 1rem;
+    } 
 
    
 }
